@@ -1,6 +1,6 @@
 {
   "name": "svelte-code-copy",
-  "description": "",
+  "description": "❏ Just wrap it with this",
   "version": "0.0.0",
   "main": "dist/index.js",
   "type": "module",
@@ -46,15 +46,24 @@
   "dependencies": {
     "svelte-feather-icons": "4.0.1"
   },
-  "homepage": "",
+  "homepage": "https://github.com/jill64/svelte-code-copy#readme",
   "author": {
-    "name": "",
-    "image": "",
-    "url": ""
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
   "repository": {
     "type": "git",
-    "url": "",
-    "image": ""
-  }
+    "url": "https://github.com/jill64/svelte-code-copy.git",
+    "image": "https://opengraph.githubassets.com/b321cb18e9b9a8a38eacc923dc8ab0379d261bc5edd434c272e08f6eef5f35af/jill64/svelte-code-copy"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/jill64/svelte-code-copy/issues",
+  "keywords": [
+    "code-block",
+    "copy",
+    "html",
+    "svelte"
+  ]
 }
