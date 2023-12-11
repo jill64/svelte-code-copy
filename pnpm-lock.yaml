@@ -5,14 +5,14 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@jill64/async-observer':
+    specifier: 1.2.0
+    version: 1.2.0
   svelte-feather-icons:
     specifier: 4.0.1
     version: 4.0.1
 
 devDependencies:
-  '@jill64/async-observer':
-    specifier: ^1.2.0
-    version: 1.2.0
   '@jill64/eslint-config-svelte':
     specifier: 1.0.1
     version: 1.0.1(svelte@4.2.8)(typescript@5.3.3)
@@ -552,7 +552,7 @@ packages:
 
   /@jill64/async-observer@1.2.0:
     resolution: {integrity: sha512-qXM9YZMZPO8mQ3bMyAtHjlxyH9Q74tCbEinZVDzYgpGwKLNEFF/1099bPLBCBfUkOgOiwwB5H7/o8EvpTg+Lbg==}
-    dev: true
+    dev: false
 
   /@jill64/attempt@1.1.0:
     resolution: {integrity: sha512-eHAN3A6DJXXiaIf7TFcjnj35thBNFRFwo6kXkKyoO3WqZaUDKXXyTZdL7TfWWvkKRrP1HwZY2rbLw9C9XNc0nw==}
