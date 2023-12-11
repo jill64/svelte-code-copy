@@ -1,2 +1,2 @@
-# svelte-code-copy
-❏ Just wrap it with this
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
