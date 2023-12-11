@@ -1,4 +1,11 @@
 <!----- BEGIN GHOST DOCS HEADER ----->
+
+# svelte-code-copy
+
+[![npm-version](https://img.shields.io/npm/v/svelte-code-copy)](https://npmjs.com/package/svelte-code-copy) [![npm-license](https://img.shields.io/npm/l/svelte-code-copy)](https://npmjs.com/package/svelte-code-copy) [![npm-download-month](https://img.shields.io/npm/dm/svelte-code-copy)](https://npmjs.com/package/svelte-code-copy) [![npm-min-size](https://img.shields.io/bundlephobia/min/svelte-code-copy)](https://npmjs.com/package/svelte-code-copy) [![ci.yml](https://github.com/jill64/svelte-code-copy/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-code-copy/actions/workflows/ci.yml)
+
+❏ Just wrap it with this
+
 <!----- END GHOST DOCS HEADER ----->
 
 ## Installation
