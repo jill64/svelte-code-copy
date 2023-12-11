@@ -4,10 +4,16 @@
   import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
   import { fade } from 'svelte/transition'
 
+  /** 
+   * Execute at the start of copying.
+   * @param promise Promise to resolve when copying is complete.
+   */
   export let onCopy: ((promise: Promise<string>) => void) | undefined =
     undefined
 
+  /** Icon size (px) */
   export let size = 18
+
   export let background = 'transparent'
   export let color = 'whitesmoke'
   export let success = 'green'
@@ -18,7 +24,12 @@
   export let padding = '0.25rem'
   export let borderRadius = '0.25rem'
   export let margin = '0'
+
+  /** Effect when button interaction */
   export let effect: 'none' | 'push' | 'pop' = 'pop'
+
+  /** Fade duration after mount */
+  export let duration = 150
 
   const { status, observed } = observable()
 
@@ -50,7 +61,7 @@
 <div bind:this={dom} style:position="relative">
   {#if visible}
     <button
-      transition:fade={{ duration: 150 }}
+      transition:fade={{ duration }}
       title="Copy"
       style:--button-background={background}
       style:cursor="pointer"
