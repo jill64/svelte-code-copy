@@ -1,7 +1,7 @@
 <script lang="ts">
   import { CodeCopy } from '$lib'
   import { theme, toast } from '@jill64/npm-demo-layout'
-  import { HighlightSvelte } from '@jill64/npm-demo-layout/highlight'
+  import { HighlightSvelte } from 'svelte-highlight'
   import { code } from './code'
 </script>
 
