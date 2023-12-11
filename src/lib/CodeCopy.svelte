@@ -4,7 +4,7 @@
   import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
   import { fade } from 'svelte/transition'
 
-  /** 
+  /**
    * Execute at the start of copying.
    * @param promise Promise to resolve when copying is complete.
    */
