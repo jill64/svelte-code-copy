@@ -1,8 +1,8 @@
 <script lang="ts">
   import { observable } from '@jill64/async-observer'
-  import { onMount } from 'svelte'
   import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
   import { fade } from 'svelte/transition'
+  import { visible } from './visible'
 
   /**
    * Execute at the start of copying.
@@ -50,16 +50,10 @@
     $status === 'FULFILLED' ? success : $status === 'REJECTED' ? error : color
 
   $: iconSize = size.toString()
-
-  let visible = false
-
-  onMount(() => {
-    visible = true
-  })
 </script>
 
 <div bind:this={dom} style:position="relative">
-  {#if visible}
+  {#if $visible}
     <button
       transition:fade={{ duration }}
       title="Copy"
