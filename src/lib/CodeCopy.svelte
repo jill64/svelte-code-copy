@@ -1,8 +1,8 @@
 <script lang="ts">
   import { observable } from '@jill64/async-observer'
   import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
+  import { hydrated } from 'svelte-hydrated'
   import { fade } from 'svelte/transition'
-  import { visible } from './visible'
 
   /**
    * Execute at the start of copying.
@@ -53,7 +53,7 @@
 </script>
 
 <div bind:this={dom} style:position="relative">
-  {#if $visible}
+  {#if $hydrated}
     <button
       transition:fade={{ duration }}
       title="Copy"
