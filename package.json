@@ -1,7 +1,7 @@
 {
   "name": "svelte-code-copy",
   "description": "❏ Just wrap it with this",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "type": "module",
   "files": [
@@ -60,11 +60,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-code-copy.git",
-    "image": "https://opengraph.githubassets.com/a71cda5fb954eaaa4d3ade5ebc48b58373154bb6f67ff49d31923e568c20c574/jill64/svelte-code-copy"
+    "image": "https://opengraph.githubassets.com/53f7da78a8ff6d20b4579c11afddbd60006f3a842cff71be9b07868d054b3180/jill64/svelte-code-copy"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-code-copy/issues",
   "keywords": [
+    "button",
     "code-block",
     "copy",
     "html",
