@@ -55,3 +55,11 @@ npm i svelte-code-copy
 | margin       | `string`   | 0             |
 | effect       | `string`   | `pop`         |
 | duration     | `number`   | 150           |
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
