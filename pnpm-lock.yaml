@@ -12,8 +12,8 @@ dependencies:
     specifier: 4.1.0
     version: 4.1.0
   svelte-hydrated:
-    specifier: 1.0.3
-    version: 1.0.3(@sveltejs/kit@2.3.2)(svelte@4.2.8)
+    specifier: 1.0.4
+    version: 1.0.4(@sveltejs/kit@2.3.2)(svelte@4.2.8)
 
 devDependencies:
   '@jill64/eslint-config-svelte':
@@ -2151,6 +2151,17 @@ packages:
     dependencies:
       '@sveltejs/kit': 2.3.2(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11)
       svelte: 4.2.8
+    dev: true
+
+  /svelte-hydrated@1.0.4(@sveltejs/kit@2.3.2)(svelte@4.2.8):
+    resolution: {integrity: sha512-Kei81RCeBbUuYHyhVeVeHLe4lT3raaQmfhEMmP2+p4gYzmwPyNcdf/CA9HU5LU/VdiqpSns+dbMDXY66Ova3+w==}
+    peerDependencies:
+      '@sveltejs/kit': ^2.0.0
+      svelte: ^4.0.0
+    dependencies:
+      '@sveltejs/kit': 2.3.2(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11)
+      svelte: 4.2.8
+    dev: false
 
   /svelte-mq-store@2.2.2(@sveltejs/kit@2.3.2)(svelte@4.2.8):
     resolution: {integrity: sha512-2WO0Ws50Aywz1+h81HWnA+uz2o8rq38P9wsFmTLx8cq/teP6ptyoR3NQcfI9LLOgVTRkW2esLVUXQa5LTAu+bw==}
