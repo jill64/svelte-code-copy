@@ -50,8 +50,8 @@ devDependencies:
     specifier: 4.2.9
     version: 4.2.9
   svelte-highlight:
-    specifier: 7.4.8
-    version: 7.4.8
+    specifier: 7.5.0
+    version: 7.5.0
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -2208,12 +2208,6 @@ packages:
     dependencies:
       svelte: 4.2.9
       svelte-highlight: 7.5.0
-    dev: true
-
-  /svelte-highlight@7.4.8:
-    resolution: {integrity: sha512-KjXI+RwpBiDvwgZX9M0T6JpmAPhLjC4Gcks5qIDrFd7iO/pEBFR3B6qeMUTFIhxipHEPp/rC4/0enAvCQtHp+A==}
-    dependencies:
-      highlight.js: 11.9.0
     dev: true
 
   /svelte-highlight@7.5.0:
