@@ -32,8 +32,8 @@ devDependencies:
     specifier: 1.7.4
     version: 1.7.4(@sveltejs/kit@2.5.0)(svelte@4.2.9)
   '@jill64/universal-sanitizer':
-    specifier: 1.1.0
-    version: 1.1.0
+    specifier: 1.2.0
+    version: 1.2.0
   '@playwright/test':
     specifier: 1.41.2
     version: 1.41.2
@@ -507,6 +507,15 @@ packages:
       sanitize-html: 2.11.0
     dev: true
 
+  /@jill64/universal-sanitizer@1.2.0:
+    resolution: {integrity: sha512-hBFaiXyjhNGGD2lNiIc0SlN9Wf1q9h4+QYgaki3vF6sSw3sXydvolicpkIIiCUIiTN56SmNXefc663mb9yWWUQ==}
+    dependencies:
+      '@types/dompurify': 3.0.5
+      '@types/sanitize-html': 2.11.0
+      dompurify: 3.0.8
+      sanitize-html: 2.11.0
+    dev: true
+
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
     engines: {node: '>=6.0.0'}
@@ -860,6 +869,12 @@ packages:
 
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
+    dev: true
+
+  /@types/sanitize-html@2.11.0:
+    resolution: {integrity: sha512-7oxPGNQHXLHE48r/r/qjn7q0hlrs3kL7oZnGj0Wf/h9tj/6ibFyRkNbsDxaBBZ4XUZ0Dx5LGCyDJ04ytSofacQ==}
+    dependencies:
+      htmlparser2: 8.0.2
     dev: true
 
   /@types/sanitize-html@2.9.5:
