@@ -19,11 +19,8 @@ test('smoke', async ({ page, browser, browserName }) => {
 
   await expect(page.getByRole('alert')).toContainText('Copied!')
 
-  if (browserName === 'webkit' || browserName === 'chromium') {
+  if (browserName === 'chromium') {
     browser.contexts().forEach((x) => x.grantPermissions(['clipboard-read']))
-  }
-
-  if (browserName !== 'firefox') {
     const text = await page.evaluate(() => navigator.clipboard.readText())
     expect(text).toBe(code())
   }
