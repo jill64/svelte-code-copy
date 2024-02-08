@@ -64,6 +64,6 @@ npm i svelte-code-copy
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 <!----- END GHOST DOCS FOOTER ----->
