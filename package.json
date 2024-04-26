@@ -35,7 +35,7 @@
     "@jill64/playwright-config": "2.2.5",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "1.7.11",
-    "@jill64/universal-sanitizer": "1.2.8",
+    "@jill64/universal-sanitizer": "1.2.9",
     "@playwright/test": "1.43.1",
     "@sveltejs/adapter-cloudflare": "4.4.0",
     "@sveltejs/kit": "2.5.7",
@@ -60,7 +60,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-code-copy.git",
-    "image": "https://opengraph.githubassets.com/8e79e5df0904cf7e292e936b1d94198437ea39c33e54140645f672d1923e5dc6/jill64/svelte-code-copy"
+    "image": "https://opengraph.githubassets.com/f7f2324198ba1a8d7152f6196b2c8af1cab47b89e6ffd39610544b928e644ab8/jill64/svelte-code-copy"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-code-copy/issues",
