@@ -48,7 +48,7 @@
   "dependencies": {
     "@jill64/async-observer": "1.2.4",
     "svelte-feather-icons": "4.1.0",
-    "svelte-hydrated": "1.0.15"
+    "svelte-hydrated": "1.0.16"
   },
   "homepage": "https://github.com/jill64/svelte-code-copy#readme",
   "author": {
