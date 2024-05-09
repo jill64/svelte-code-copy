@@ -30,7 +30,7 @@
     "svelte": "^4.0.0"
   },
   "devDependencies": {
-    "@jill64/eslint-config-svelte": "1.2.24",
+    "@jill64/eslint-config-svelte": "1.2.25",
     "@jill64/npm-demo-layout": "1.0.190",
     "@jill64/playwright-config": "2.3.0",
     "@jill64/prettier-config": "1.0.0",
@@ -60,7 +60,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-code-copy.git",
-    "image": "https://opengraph.githubassets.com/b1e874e4e27fc0971f4e6fef8a3a9caee7f3e77bd0334cc91b10680c637faaf7/jill64/svelte-code-copy"
+    "image": "https://opengraph.githubassets.com/937acd35d8da5827c43144b63563d9a7374f866ce1dca4b9bf67e8137e37c66e/jill64/svelte-code-copy"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-code-copy/issues",
