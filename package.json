@@ -41,7 +41,7 @@
     "@sveltejs/kit": "2.5.18",
     "svelte": "4.2.18",
     "svelte-highlight": "7.7.0",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "vite": "5.3.4",
     "@sveltejs/vite-plugin-svelte": "3.1.1"
   },
@@ -60,7 +60,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-code-copy.git",
-    "image": "https://opengraph.githubassets.com/a24159fb7a5357eccdb2d774c501a3f727fb51b0a686eaf1a9b9c5443a181cfe/jill64/svelte-code-copy"
+    "image": "https://opengraph.githubassets.com/68abbe27a4c5328b6e281f62b9561d251dc53c4f6297c53118c6183af84c99fd/jill64/svelte-code-copy"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-code-copy/issues",
