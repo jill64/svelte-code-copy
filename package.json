@@ -1,7 +1,7 @@
 {
   "name": "svelte-code-copy",
   "description": "❏ Just wrap it with this",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "main": "dist/index.js",
   "type": "module",
   "files": [
@@ -48,7 +48,7 @@
   "dependencies": {
     "@jill64/async-observer": "1.2.5",
     "svelte-feather-icons": "4.1.0",
-    "svelte-hydrated": "1.0.24"
+    "svelte-hydrated": "1.0.25"
   },
   "homepage": "https://github.com/jill64/svelte-code-copy#readme",
   "author": {
