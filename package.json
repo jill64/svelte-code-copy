@@ -1,7 +1,7 @@
 {
   "name": "svelte-code-copy",
   "description": "❏ Just wrap it with this",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "main": "dist/index.js",
   "type": "module",
   "files": [
@@ -38,7 +38,7 @@
     "@jill64/universal-sanitizer": "1.3.4",
     "@playwright/test": "1.49.0",
     "@sveltejs/adapter-cloudflare": "4.7.4",
-    "@sveltejs/kit": "2.6.4",
+    "@sveltejs/kit": "2.8.3",
     "svelte": "4.2.19",
     "svelte-highlight": "7.7.0",
     "typescript": "5.7.2",
@@ -60,7 +60,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-code-copy.git",
-    "image": "https://opengraph.githubassets.com/6bed250465a42cf2fbf3f7bad30e88b6de4ab2a6dce955b22eef56bf7af4b0a1/jill64/svelte-code-copy"
+    "image": "https://opengraph.githubassets.com/0f080e7f71e1ee83ce036a60ae07180b30bd8f4d0a522b38984bbda282a8ddbf/jill64/svelte-code-copy"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-code-copy/issues",
