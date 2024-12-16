@@ -40,7 +40,7 @@
     "@sveltejs/adapter-cloudflare": "4.8.0",
     "@sveltejs/kit": "2.8.3",
     "svelte": "4.2.19",
-    "svelte-highlight": "7.7.0",
+    "svelte-highlight": "7.8.0",
     "typescript": "5.7.2",
     "vite": "5.4.11",
     "@sveltejs/vite-plugin-svelte": "3.1.2"
@@ -60,7 +60,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-code-copy.git",
-    "image": "https://opengraph.githubassets.com/5e5e93ab7c066dce4c5ba8ed06628e7d40fd08baf1f143252f9664d32a904b40/jill64/svelte-code-copy"
+    "image": "https://opengraph.githubassets.com/016927ae97fba93c8133863e53d09682407fd205f1f1294b0c8f490050e37390/jill64/svelte-code-copy"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-code-copy/issues",
