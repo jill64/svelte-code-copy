@@ -31,11 +31,13 @@ npm i svelte-code-copy
 </script>
 
 <CodeCopy>
-  <pre>
-    <code>
-      <!-- Your code block -->
-    </code>
-  </pre>
+  {#snippet codeBlock()}
+    <pre>
+      <code>
+        <!-- Your code block -->
+      </code>
+    </pre>
+  {/snippet}
 </CodeCopy>
 ```
 

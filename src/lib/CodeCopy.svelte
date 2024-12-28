@@ -1,55 +1,77 @@
 <script lang="ts">
-  import { observable } from '@jill64/async-observer'
+  import { observable } from '@jill64/svelte-observer'
+  import type { Snippet } from 'svelte'
   import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
   import { hydrated } from 'svelte-hydrated'
   import { fade } from 'svelte/transition'
 
-  /**
-   * Execute at the start of copying.
-   * @param promise Promise to resolve when copying is complete.
-   */
-  export let onCopy: ((promise: Promise<string>) => void) | undefined =
-    undefined
+  let {
+    /**
+     * Execute at the start of copying.
+     * @param promise Promise to resolve when copying is complete.
+     */
+    onCopy = undefined,
 
-  /** Icon size (px) */
-  export let size = 18
+    /** Icon size (px) */
+    size = 18,
+    background = 'transparent',
+    color = 'whitesmoke',
+    success = 'green',
+    error = 'red',
+    top = '0.5rem',
+    right = '0.5rem',
+    border = 'none',
+    padding = '0.25rem',
+    borderRadius = '0.25rem',
+    margin = '0',
 
-  export let background = 'transparent'
-  export let color = 'whitesmoke'
-  export let success = 'green'
-  export let error = 'red'
-  export let top = '0.5rem'
-  export let right = '0.5rem'
-  export let border = 'none'
-  export let padding = '0.25rem'
-  export let borderRadius = '0.25rem'
-  export let margin = '0'
+    /** Effect when button interaction */
+    effect = 'pop',
 
-  /** Effect when button interaction */
-  export let effect: 'none' | 'push' | 'pop' = 'pop'
+    /** Fade duration after mount */
+    duration = 150,
 
-  /** Fade duration after mount */
-  export let duration = 150
+    codeBlock
+  }: {
+    onCopy?: (promise: Promise<string>) => void
+    size?: number
+    background?: string
+    color?: string
+    success?: string
+    error?: string
+    top?: string
+    right?: string
+    border?: string
+    padding?: string
+    borderRadius?: string
+    margin?: string
+    effect?: 'none' | 'push' | 'pop'
+    duration?: number
+    codeBlock: Snippet
+  } = $props()
 
-  const { status, observed } = observable()
+  let { status, observed } = $derived(observable())
 
   let dom: HTMLElement | null
 
-  const onClick = observed(async () => {
-    const source =
-      dom?.getElementsByTagName('code')[0].innerText.replace(/\n$/, '') ?? ''
+  let onClick = $derived(
+    observed(async () => {
+      const source =
+        dom?.getElementsByTagName('code')[0].innerText.replace(/\n$/, '') ?? ''
 
-    const promise = navigator.clipboard.writeText(source)
+      const promise = navigator.clipboard.writeText(source)
 
-    onCopy?.(promise.then(() => source))
+      onCopy?.(promise.then(() => source))
 
-    await promise
-  })
+      await promise
+    })
+  )
 
-  $: textColor =
-    $status === 'FULFILLED' ? success : $status === 'REJECTED' ? error : color
+  let textColor = $derived(
+    status === 'FULFILLED' ? success : status === 'REJECTED' ? error : color
+  )
 
-  $: iconSize = size.toString()
+  let iconSize = $derived(size.toString())
 </script>
 
 <div bind:this={dom} style:position="relative">
@@ -71,20 +93,20 @@
       style:align-items="center"
       style:justify-content="center"
       data-button-effect={effect}
-      on:click={onClick}
+      onclick={onClick}
     >
-      {#if $status === 'IDLE'}
+      {#if status === 'IDLE'}
         <CopyIcon size={iconSize} />
-      {:else if $status === 'PENDING'}
+      {:else if status === 'PENDING'}
         <LoaderIcon size={iconSize} />
-      {:else if $status === 'FULFILLED'}
+      {:else if status === 'FULFILLED'}
         <CheckIcon size={iconSize} />
       {:else}
         <XIcon size={iconSize} />
       {/if}
     </button>
   {/if}
-  <slot />
+  {@render codeBlock()}
 </div>
 
 <style>
