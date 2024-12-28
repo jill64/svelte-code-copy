@@ -1,6 +1,6 @@
 <script lang="ts">
   import { observable } from '@jill64/svelte-observer'
-    import type { Snippet } from 'svelte'
+  import type { Snippet } from 'svelte'
   import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
   import { hydrated } from 'svelte-hydrated'
   import { fade } from 'svelte/transition'
