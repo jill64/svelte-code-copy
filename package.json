@@ -27,7 +27,7 @@
     "test": "playwright test"
   },
   "peerDependencies": {
-    "svelte": "^4.0.0"
+    "svelte": "^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "2.0.1",
