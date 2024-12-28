@@ -31,7 +31,7 @@
     /** Fade duration after mount */
     duration = 150,
 
-    codeBlock
+    children
   }: {
     onCopy?: (promise: Promise<string>) => void
     size?: number
@@ -47,7 +47,7 @@
     margin?: string
     effect?: 'none' | 'push' | 'pop'
     duration?: number
-    codeBlock: Snippet
+    children: Snippet
   } = $props()
 
   let { status, observed } = $derived(observable())
@@ -106,7 +106,7 @@
       {/if}
     </button>
   {/if}
-  {@render codeBlock()}
+  {@render children()}
 </div>
 
 <style>
