@@ -17,9 +17,7 @@
         })}
       effect={$theme === 'dark' ? 'pop' : 'push'}
     >
-      {#snippet codeBlock()}
-        <HighlightSvelte code={code()}></HighlightSvelte>
-      {/snippet}
+      <HighlightSvelte code={code()}></HighlightSvelte>
     </CodeCopy>
   </output>
 </main>
