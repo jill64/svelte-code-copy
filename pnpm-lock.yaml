@@ -52,8 +52,8 @@ importers:
         specifier: 5.16.0
         version: 5.16.0
       svelte-highlight:
-        specifier: 7.8.1
-        version: 7.8.1
+        specifier: 7.8.2
+        version: 7.8.2
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -1566,8 +1566,8 @@ packages:
   svelte-highlight@7.7.0:
     resolution: {integrity: sha512-umBiTz3fLbbNCA+wGlRhJOb54iC6ap8S/dxjauQ+g6a8oFGTOGQeOP2rJVoh/K1ssF7IjP4P0T3Yuiu+vtaG5Q==}
 
-  svelte-highlight@7.8.1:
-    resolution: {integrity: sha512-0YjBPDklAkxSNGc6TpRQXUp4z4LhzM30fTwiW0D+hhxxXrcfBR347i4G1SlS/SPAXI2pSwaU9IWcV9cWVRVAcA==}
+  svelte-highlight@7.8.2:
+    resolution: {integrity: sha512-fJZOQtI71CIAOzv43h/cHVDABB3YfWFERGxZx4RisBVHjEuJXfnrrEOhPS0iE2uZUFyQKDWZyzPlcYyBAkH2iA==}
 
   svelte-hydrated@1.0.22:
     resolution: {integrity: sha512-m4JIfY9AbXEFlj81VmWUQFbPwP22qsrA7TmTEG9KFMcx2cfhlI8zaOczcHX0syC+QkBU28FmEufNDSsqW4ZuOw==}
@@ -3191,7 +3191,7 @@ snapshots:
     dependencies:
       highlight.js: 11.10.0
 
-  svelte-highlight@7.8.1:
+  svelte-highlight@7.8.2:
     dependencies:
       highlight.js: 11.11.1
 
