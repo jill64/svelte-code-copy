@@ -7,6 +7,8 @@ export const code = () =>
 </script>
 
 <CodeCopy>
-  <pre><code>{code}</code></pre>
+  {#snippet codeBlock()}
+    <pre><code>{code}</code></pre>
+  {/snippet}
 </CodeCopy>
 `.trim()

@@ -8,15 +8,19 @@ importers:
 
   .:
     dependencies:
-      '@jill64/async-observer':
-        specifier: 1.2.6
-        version: 1.2.6
+      '@jill64/svelte-observer':
+        specifier: 0.0.1
+        version: 0.0.1(svelte@5.16.0)
       svelte-feather-icons:
         specifier: 4.2.0
         version: 4.2.0
       svelte-hydrated:
         specifier: 1.0.31
+<<<<<<< Updated upstream
         version: 1.0.31(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)
+=======
+        version: 1.0.31(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)
+>>>>>>> Stashed changes
     devDependencies:
       '@jill64/eslint-config-svelte':
         specifier: 2.0.1
@@ -461,9 +465,6 @@ packages:
   '@jill64/async-observer@1.2.5':
     resolution: {integrity: sha512-eaC9F4Fdb2Mll8dSLyraTubG7c0A0DEns3sdHzTt01k+U/zxvV6CM7bAb/bgL2uGw4F1fXGEGCESNtQ+nK49WQ==}
 
-  '@jill64/async-observer@1.2.6':
-    resolution: {integrity: sha512-UyxncPsDKpRNS88VVY1/P7Xrt5OEuXbrEWxcFhnrotKZRDWsgtC/h3gpfBlGFcUZeDdHm8/7hvdby2y6RHBEwg==}
-
   '@jill64/eslint-config-svelte@2.0.1':
     resolution: {integrity: sha512-hZNOkLh6J6yuqkFf8afwn4xegWpkfpbB6fOsPAI+ShrZ+railsXkvov3NF3mQHbOwLWX/KpL/Jd5gVcd/5k4Iw==}
     peerDependencies:
@@ -509,6 +510,11 @@ packages:
     resolution: {integrity: sha512-qHABrcIpVcg6JEhPD8N5jchF9FEOr02GEwsoTxO4s4V6pZC/3FsCxKwsW2PwNKS842+1iXRuea+n3FyP5PaBCQ==}
     peerDependencies:
       svelte: ^4.0.0
+
+  '@jill64/svelte-observer@0.0.1':
+    resolution: {integrity: sha512-M+lfGrvfYM9C9svCKXvywurORtBBeSH61eyJ092yJpGlDawIiE/VWu5/L5Drr1wYUs/p176+NEsbzKnjWHgS1Q==}
+    peerDependencies:
+      svelte: ^5.0.0
 
   '@jill64/svelte-ogp@1.1.32':
     resolution: {integrity: sha512-oTkKijcMGOFicBy912BoSijC/Ij7xlOM+OOKpmqNCRwTiH4Y7qn8YSyxt1vIREMHTm56QCE6mNSYFgccVTjRJA==}
@@ -2005,8 +2011,6 @@ snapshots:
 
   '@jill64/async-observer@1.2.5': {}
 
-  '@jill64/async-observer@1.2.6': {}
-
   '@jill64/eslint-config-svelte@2.0.1(svelte@5.16.0)(typescript@5.7.2)':
     dependencies:
       '@eslint/js': 9.17.0
@@ -2078,7 +2082,15 @@ snapshots:
     dependencies:
       svelte: 5.16.0
 
+<<<<<<< Updated upstream
   '@jill64/svelte-ogp@1.1.32(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)':
+=======
+  '@jill64/svelte-observer@0.0.1(svelte@5.16.0)':
+    dependencies:
+      svelte: 5.16.0
+
+  '@jill64/svelte-ogp@1.1.32(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)':
+>>>>>>> Stashed changes
     dependencies:
       '@jill64/svelte-html': 1.1.20(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2))
@@ -2432,6 +2444,11 @@ snapshots:
   acorn-walk@8.3.4:
     dependencies:
       acorn: 8.14.0
+<<<<<<< Updated upstream
+=======
+
+  acorn@8.12.1: {}
+>>>>>>> Stashed changes
 
   acorn@8.14.0: {}
 
@@ -2478,7 +2495,11 @@ snapshots:
   capnp-ts@0.7.0:
     dependencies:
       debug: 4.4.0
+<<<<<<< Updated upstream
       tslib: 2.8.1
+=======
+      tslib: 2.7.0
+>>>>>>> Stashed changes
     transitivePeerDependencies:
       - supports-color
 
@@ -3196,7 +3217,11 @@ snapshots:
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2))
       svelte: 5.16.0
 
+<<<<<<< Updated upstream
   svelte-hydrated@1.0.31(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0):
+=======
+  svelte-hydrated@1.0.31(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0):
+>>>>>>> Stashed changes
     dependencies:
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.10.2))
       svelte: 5.16.0

@@ -46,7 +46,7 @@
     "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
-    "@jill64/async-observer": "1.2.6",
+    "@jill64/svelte-observer": "0.0.1",
     "svelte-feather-icons": "4.2.0",
     "svelte-hydrated": "1.0.31"
   },
