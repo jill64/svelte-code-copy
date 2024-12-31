@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "2.0.2",
-    "@jill64/npm-demo-layout": "1.0.249",
+    "@jill64/npm-demo-layout": "2.0.2",
     "@jill64/playwright-config": "2.4.2",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.1",
@@ -48,7 +48,7 @@
   "dependencies": {
     "@jill64/svelte-observer": "0.0.1",
     "svelte-feather-icons": "4.2.0",
-    "svelte-hydrated": "1.0.31"
+    "svelte-hydrated": "2.0.0"
   },
   "homepage": "https://github.com/jill64/svelte-code-copy#readme",
   "author": {
