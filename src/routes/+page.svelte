@@ -10,12 +10,12 @@
     <CodeCopy
       color="inherit"
       onCopy={(promise) =>
-        $toast.promise(promise, {
+        toast.promise(promise, {
           success: 'Copied!',
           error: 'Failed to copy',
           loading: 'Copying...'
         })}
-      effect={$theme === 'dark' ? 'pop' : 'push'}
+      effect={theme.isDark ? 'pop' : 'push'}
     >
       <HighlightSvelte code={code()}></HighlightSvelte>
     </CodeCopy>
