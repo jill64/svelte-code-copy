@@ -2,7 +2,7 @@
   import { observable } from '@jill64/svelte-observer'
   import type { Snippet } from 'svelte'
   import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
-  import { hydrated } from 'svelte-hydrated'
+  import { is } from 'svelte-hydrated'
   import { fade } from 'svelte/transition'
 
   let {
@@ -75,7 +75,7 @@
 </script>
 
 <div bind:this={dom} style:position="relative">
-  {#if $hydrated}
+  {#if is.hydrated}
     <button
       transition:fade={{ duration }}
       title="Copy"
