@@ -60,7 +60,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-code-copy.git",
-    "image": "https://opengraph.githubassets.com/f5a86b83557706e6276ddfa48849e5eb58199f25a482fe1ab5f20304b1253cfd/jill64/svelte-code-copy"
+    "image": "https://opengraph.githubassets.com/6a1f018affa1767ddc261141daa42342be10f64d08a78b310d2a0dd71b1d0828/jill64/svelte-code-copy"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-code-copy/issues",
