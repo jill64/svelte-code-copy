@@ -94,6 +94,7 @@
       style:justify-content="center"
       data-button-effect={effect}
       onclick={onClick}
+      type="button"
     >
       {#if status === 'IDLE'}
         <CopyIcon size={iconSize} />
