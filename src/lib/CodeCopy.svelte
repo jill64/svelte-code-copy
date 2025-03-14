@@ -59,6 +59,7 @@
       const source =
         dom?.getElementsByTagName('code')[0].innerText.replace(/\n$/, '') ?? ''
 
+      // eslint-disable-next-line no-undef
       const promise = navigator.clipboard.writeText(source)
 
       onCopy?.(promise.then(() => source))
